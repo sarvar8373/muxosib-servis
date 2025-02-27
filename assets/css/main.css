@@ -866,6 +866,7 @@ section {
   background: var(--accent-color);
   font-weight: 600;
   font-size: 16px;
+  border: none;
   letter-spacing: 0.5px;
   display: inline-block;
   padding: 14px 50px;
@@ -1359,7 +1360,7 @@ section {
   position: absolute;
   left: 12px;
   right: 12px;
-  bottom: 0%;
+  bottom: -100%;
   z-index: 3;
   transition: all ease-in-out 0.5s;
   background: color-mix(in srgb, var(--background-color), transparent 10%);
@@ -1646,7 +1647,7 @@ section {
   cursor: pointer;
 }
 .faq .faq-container .faq-item .faq-toggle:hover {
-  color: var(--accent-color);
+  color: var(--default-color);
 }
 
 .faq .faq-container .faq-active {
@@ -1658,7 +1659,9 @@ section {
 .faq .faq-container .faq-active h3 {
   color: var(--contrast-color);
 }
-
+.faq .faq-container .faq-active h3:hover {
+  color: var(--default-color);
+}
 .faq .faq-container .faq-active .faq-content {
   grid-template-rows: 1fr;
   visibility: visible;
@@ -1668,7 +1671,7 @@ section {
 
 .faq .faq-container .faq-active .faq-toggle {
   transform: rotate(90deg);
-  color: var(--accent-color);
+  color: var(--contrast-color);
 }
 
 /*--------------------------------------------------------------
