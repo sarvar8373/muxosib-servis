@@ -1270,6 +1270,33 @@ section {
 .services .service-item.item-pink:hover .icon path {
   fill: #09858e;
 }
+.services .service-item.item-purple i {
+  color: #8e7309;
+}
+.services .service-item.item-purple:hover .icon i {
+  color: #fff;
+}
+.services .service-item.item-purple:hover .icon path {
+  fill: #8e7309;
+}
+.services .service-item.item-lightblue i {
+  color: #96f557;
+}
+.services .service-item.item-lightblue:hover .icon i {
+  color: #fff;
+}
+.services .service-item.item-lightblue:hover .icon path {
+  fill: #96f557;
+}
+.services .service-item.item-darkblue i {
+  color: #5789f5;
+}
+.services .service-item.item-darkblue:hover .icon i {
+  color: #fff;
+}
+.services .service-item.item-darkblue:hover .icon path {
+  fill: #5789f5;
+}
 .img {
   width: 100%;
   height: 278px;
